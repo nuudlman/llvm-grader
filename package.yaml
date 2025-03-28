@@ -42,6 +42,7 @@ ghc-options:
 library:
   source-dirs: src
   exposed-modules:
+    - Data
     - Data.Gradescope
 
 executables:

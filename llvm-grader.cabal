@@ -25,9 +25,9 @@ source-repository head
 
 library
   exposed-modules:
+      Data
       Data.Gradescope
   other-modules:
-      Data
       Lib
       Paths_llvm_grader
   autogen-modules:
