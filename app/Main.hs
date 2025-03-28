@@ -1,6 +1,9 @@
 module Main (main) where
 
-import Lib
+import Data.Gradescope
+import Data.Aeson (encode)
+
 
 main :: IO ()
-main = someFunc
+main = do
+    putStrLn $ show $ encode $ defaultResults { subScore = Just 100 }

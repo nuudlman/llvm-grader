@@ -23,6 +23,10 @@ dependencies:
 - base >= 4.7 && < 5
 - xml-conduit
 - aeson
+- path
+- text
+- vector
+- unordered-containers
 
 ghc-options:
 - -Wall
@@ -37,6 +41,8 @@ ghc-options:
 
 library:
   source-dirs: src
+  exposed-modules:
+    - Data.Gradescope
 
 executables:
   llvm-grader-exe:
